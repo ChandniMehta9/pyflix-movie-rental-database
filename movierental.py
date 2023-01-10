@@ -1,5 +1,6 @@
 import csv
 import os
+import mysql.connector
 
 def discount():
     global total
@@ -196,3 +197,39 @@ else:
     
 os.remove("userdatabase.csv")
 os.rename("userdatabase1.csv","userdatabase.csv")
+
+obj-mysql.connector.connect (host='localhost', database='school', user='root', password='1234')
+r=input('Would you like to leave us a review for PyFlix, to ensure we maximise customer satisfaction (y/n)')
+print () 
+if r=='y':
+    rt=eval (input ('Rate your experience on a scale from 1-10: '))
+    re=input ('Enter your reviews and/or suggestions you have for PyFlix: ')
+    print ()
+    c=obj.cursor()
+    c.execute("INSERT INTO userdatabase VALUES ('%s', '%s', '%s')" % (id, rt, re))
+    obj.commit() 
+    c.close()
+
+rl=eval (input ('Do you want to take a look at few reviews either below 5 (choose 1) or above 5 (choose 2), or exit (choose 3)-'))
+if r1==1:
+    c=obj.cursor()
+    c.execute('SELECT FROM userdatabase')
+    x=c.fetchone()
+    while x:
+        if x[1]<5:
+            print (x[1],x[2])
+        x=c.fetchone()
+    c.close()
+    
+elif rl==2:
+    c=obj.cursor()
+    c.execute("SELECT *FROM userdatabase")
+    x=c.fetchone()
+    while x:
+        if x[1]>5:
+            print (x[1], x[2])
+        x=c.fetchone()
+    c.close()
+else:
+    print ()
+print ("Thank You for using PyFlix! Now sit back, grab some popcorn and enjoy the movie!")
