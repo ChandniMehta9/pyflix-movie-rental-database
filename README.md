@@ -26,16 +26,6 @@ user an option to rate their experience while using the program and they are giv
 to enter feedback, which will be updated in the SQL database. This is used to enhance user
 experience.
   
-# <h2> Synopsis
-Though the program serves a straightforward purpose, we believe that there is scope for
-improvement. The database of the movies currently is limited, enabling the user to rent or
-purchase only from a small collection. Enabling the user to add more movies will help
-with this problem, but there is a risk of unwanted and corrupted files entering the
-database.
-We have also noticed that the movie database would work faster and be more efficient if
-it existed in MYSQL instead of a CSV file as it is currently in. Upon learning to connect
-Python with MYSQL, we would be able to implement this idea in our project.
-
 # <h2> User-Defined Functions
 1. discount():
 The purpose of this feature is to offer a discount of 25 percent to customers that purchase
@@ -63,3 +53,13 @@ or rent more than five movies at a time
   <img src = "https://user-images.githubusercontent.com/86789453/211573294-835fcac1-f797-423c-85a6-532d3ef2a2f9.JPG" width="700" /> <br>
   The updated SQL Databse<br>
   <img src = "https://user-images.githubusercontent.com/86789453/211573292-ee30f99b-297c-49a4-a81a-3244f629b2d5.JPG" width="700" /> 
+  
+  # <h2> Synopsis
+Though the program serves a straightforward purpose, we believe that there is scope for
+improvement. The database of the movies currently is limited, enabling the user to rent or
+purchase only from a small collection. Enabling the user to add more movies will help
+with this problem, but there is a risk of unwanted and corrupted files entering the
+database.
+We have also noticed that the movie database would work faster and be more efficient if
+it existed in MYSQL instead of a CSV file as it is currently in. Upon learning to connect
+Python with MYSQL, we would be able to implement this idea in our project.
