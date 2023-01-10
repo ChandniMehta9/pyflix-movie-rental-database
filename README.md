@@ -46,4 +46,20 @@ or rent more than five movies at a time
  recommend.
   
 # <h2> Sample Output 
-!<img src= "https://user-images.githubusercontent.com/86789453/211568242-5313affc-e3d3-4730-a5c3-12653650ac1f.JPG" width="40" /> "Logo (using Python Turtle)"
+# <h4> Output 1: New User
+  Logo (using Python Turtle) <br>
+<img src= "https://user-images.githubusercontent.com/86789453/211568242-5313affc-e3d3-4730-a5c3-12653650ac1f.JPG" width="400" /> <br> <br>
+<img src = "https://user-images.githubusercontent.com/86789453/211570046-f03db106-e4b5-494b-a984-4cfdd02c0f1e.JPG" width="700" /> <br> 
+<img src = "https://user-images.githubusercontent.com/86789453/211570066-d9a0d794-b080-41f2-892c-7d53213fc439.JPG" width="700" /> <br> 
+  
+ The updated user database with new users <br>
+ <img src = "https://user-images.githubusercontent.com/86789453/211573302-29c09e1c-6484-40ca-a782-c53e6f34dae0.JPG" width="400" /> <br> 
+  
+ The updated movies list with user’s recommended movies <br>
+ <img src = "https://user-images.githubusercontent.com/86789453/211573298-2f3c5194-3ab7-41af-aa35-d817a9f56923.JPG" width="400" /> <br> 
+  
+  # <h4> Output 2: Exisitng User and Discount Application
+  <img src = "https://user-images.githubusercontent.com/86789453/211573297-d09a2207-3d15-408b-99b5-894bbb80c60e.JPG" width="700" /> <br> 
+  <img src = "https://user-images.githubusercontent.com/86789453/211573294-835fcac1-f797-423c-85a6-532d3ef2a2f9.JPG" width="700" /> <br>
+  The updated SQL Databse<br>
+  <img src = "https://user-images.githubusercontent.com/86789453/211573292-ee30f99b-297c-49a4-a81a-3244f629b2d5.JPG" width="700" /> 
