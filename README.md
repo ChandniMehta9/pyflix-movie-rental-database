@@ -46,4 +46,4 @@ or rent more than five movies at a time
  recommend.
   
 # <h2> Sample Output 
-!(C:\Users\Lenovo\OneDrive\Desktop\logo.JPG "Logo(using Python Turtle")
+!<img src= "https://user-images.githubusercontent.com/86789453/211568242-5313affc-e3d3-4730-a5c3-12653650ac1f.JPG" width="40" /> "Logo (using Python Turtle)"
