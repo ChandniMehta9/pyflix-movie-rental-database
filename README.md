@@ -12,7 +12,7 @@ file in which it is stored.
 The Python module “Turtle” is also used in the program, to draw the logo of our project.
 The program starts with the choice for the user to either login or create a new account. By
 creating a new account, the user’s details such as username, password, and number, are
-stored in a user database. After logging in, the user is asked to use filters to find movies
+stored in a user database (csv file). After logging in, the user is asked to use filters to find movies
 that are favourable for them. A list of movies is then displayed, and the user is asked to
 enter the movie of his choice and is given the option to rent or buy the movie. Renting a
 movie will allow a user to temporarily own the movie for 7 days; buying the movie
