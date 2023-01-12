@@ -2,6 +2,12 @@ import csv
 import os
 import mysql.connector
 
+import turtle
+turtle.color('turquoise')
+style=('Veranda',50,'Bold')
+turtle.write('PYFLIX',font=style,align='center')
+turtle.hideturtle()
+
 def discount():
     global total
     print("Congratulations! As you have purchased or rented more than 5 movies, you are eligible for a discount of 25%")
